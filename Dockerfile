@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM docker:1.12
 RUN apk update
 RUN apk upgrade
 RUN apk add py-pip
